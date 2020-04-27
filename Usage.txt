@@ -1,0 +1,33 @@
+
+ This function will simply print a GUI Line on console window.
+ It will help in making batch files little more advanced and effective.
+ This file uses 'batbox.exe' plugin for printing lines fastly on console.
+
+ Syntax: call Line [X1] [Y1] [X2] [Y2] [Char | Char Code] [color] [Result]
+ Syntax: call Line [help | /? | -h | -help]
+ Syntax: call Line ver
+
+ Where:-
+
+ X1		: It is the X Co-ordinate of the Starting point of the line.
+ Y1		: It is the Y Co-ordinate of the Starting point of the line.
+ X2		: It is the X Co-ordinate of the Ending point of the line.
+ Y2		: It is the Y Co-ordinate of the Ending point of the line.
+ Char|Char_Code : It maybe either Directly the character or the ASCII
+		  Value of the Character.
+ Color		: The color of the Line.
+ Result		: No need of always specifying this parameter, it is a 
+		  special case parameter.In any case, if you needed the
+		  code of the Line instead of directly printing it on
+		  console, then you can specify this parameter, and the
+		  respective code for the Line will be saved into the
+		  variable named in this parameter...
+
+ Example: Call Line 15 15 5 5 111 0a
+ Example: Call Line 15 15 5 5 o 0a
+ Example: Call Line 15 15 5 5 111 0a _Result
+ 
+ Now, you can execute the code saved in '_Result' variable, using 'Batbox.exe'
+ file...
+ www.thebateam.org
+ #TheBATeam
