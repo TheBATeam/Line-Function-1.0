@@ -2,7 +2,7 @@
 The **Line function v.1.0** Uses Bresenham’s algorithm for achieving the goal of creating **GUI lines** with characters in cmd without flaws on the console. The function calculates all the possible positions of pixels (characters in this case) on the console.  And, then we are printing the specified character in given color on those positions using **‘Batbox’** plugin. Which is responsible for the tremendous speed and response time of the function.
 
 # USAGE – USING LINE FUNCTION 1.0 BY KVC
-The function simply prints a line of required properties (including starting pt, ending pt, printing character, line color) by simply using **‘Batbox’** plugin as one of its dependencies. which means, that you only need to keep batbox.exe file with this line.bat function file, in the same folder/directory – where your main batch file is residing.
+The function simply prints a line of required properties (including starting pt, ending pt, printing character, line color) by simply using **‘Batbox’** plugin as one of its dependencies. which means, that you only need to keep **batbox.exe** file with this line.bat function file, in the same folder/directory – where your main batch file is residing.
 
 Then you are ready to go. Your program will become tremendously advanced and smaller (simple) and the whole project file’s size will increase only by **5 KBs** (some 4.6 KB). This is the advantage of creating functions that you can use them whenever you want in your program.
 
